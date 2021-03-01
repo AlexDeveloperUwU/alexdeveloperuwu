@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there, this is my main account now, because Github shuted down my other account AlexDevUwU. 👋
+### I´m going to use it to publish my web and other things like projects ⚡⚡
+
 
 <!--
 **AlexDeveloperUwU/alexdeveloperuwu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
