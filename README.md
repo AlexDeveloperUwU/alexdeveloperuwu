@@ -5,6 +5,7 @@
 ### ChaostCraft Network (https://discord.io/chaostcraft ONLY SPANISH TALKERS)
 ### HelperBot (https://top.gg/bot/701142168756158714)
 ### AlexDevUwU (Youtube and Twitch)
+### StreamSetup
 ### And more coming soon! I´ve started on March, so please wait to watch some new projects!
 
 <!--
