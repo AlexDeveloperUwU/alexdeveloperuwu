@@ -1,21 +1,17 @@
-### Hi there 👋, this is my main account now, because Github shuted down my other account AlexDevUwU.
-#
-### My actual projects are:
+# Hi there! Welcome to my Github Account!
+# Here are my actual projects:
 ###
-### ChaostCraft Network (https://discord.io/chaostcraft ONLY SPANISH TALKERS)
+### My Website (https://alexdevuwu.tk)
 ### HelperBot (https://top.gg/bot/701142168756158714)
 ### AlexDevUwU (Youtube and Twitch)
-### StreamSetup
-### And more coming soon! I´ve started on March, so please wait to watch some new projects!
-#
-### Top languages I use:
-[![My top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlexDeveloperUwU&theme=vision-friendly-dark)](https://alexdevuwu.tk)
-#
-### My GitHub stats:
-[![My stats](https://github-readme-stats.vercel.app/api?username=alexdeveloperuwu&count_private=true&include_all_commits=true&theme=vision-friendly-dark)](https://alexdevuwu.tk)
-#
-### My trophys
-[![My top languages](https://github-profile-trophy.vercel.app/?username=alexdeveloperuwu)](https://alexdevuwu.tk)
-#
-### My streaks
-[![My top languages](https://github-readme-streak-stats.herokuapp.com/?user=alexdeveloperuwu&)](https://alexdevuwu.tk)
+### And a lot of projects that are listed on my website!
+### 
+# Github Stats
+[![Github Stats](https://github-readme-stats.vercel.app/api/?username=AlexDeveloperUwU&tcount_private=true&theme=tokyonight&show_icons=true)](https://alexdevuwu.tk)
+### 
+[![Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=AlexDeveloperUwU&tcount_private=true&theme=tokyonight&show_icons=true&layout=compact)](https://alexdevuwu.tk)
+### 
+[![Github Stats](https://github-readme-stats.vercel.app/api/wakatime?username=AlexDevUwU&theme=tokyonight)](https://alexdevuwu.tk)
+###
+# Discord
+[![Github Stats](https://lanyard-profile-readme.vercel.app/api/419176939497193472?animated=true)](https://discord.com/users/419176939497193472)
