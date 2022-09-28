@@ -1,11 +1,4 @@
 # Hi there! Welcome to my Github Account!
-# Here are my actual projects:
-###
-### My Website (https://alexdevuwu.tk)
-### HelperBot (https://top.gg/bot/701142168756158714)
-### AlexDevUwU (Youtube and Twitch)
-### And a lot of projects that are listed on my website!
-### 
 # Github Stats
 [![Github Stats](https://github-readme-stats.vercel.app/api/?username=AlexDeveloperUwU&tcount_private=true&theme=tokyonight&show_icons=true)](https://alexdevuwu.tk)
 ### 
