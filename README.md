@@ -1,4 +1,3 @@
-# Hi there! Welcome to my Github Account!
 # Github Stats
 [![Github Stats](https://github-readme-stats.vercel.app/api/?username=AlexDeveloperUwU&tcount_private=true&theme=tokyonight&show_icons=true)](https://alexdevuwu.tk)
 ### 
