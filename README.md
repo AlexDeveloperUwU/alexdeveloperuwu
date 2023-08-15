@@ -19,7 +19,7 @@
 Actualmente estoy trabajando en:
 
 - Mejoras y nuevas características para [Azirax](https://azirax.tk).
-- Colaborando con [KuokoaVT](https://kuokoavt.eu) en proyectos emocionantes.
+- Mejorando [KuokoaVT](https://kuokoavt.eu) y creando nuevos subproyectos en él.
 - Explorando y desarrollando mini proyectos que despiertan mi creatividad.
 
 ## Coding Stats 📊
