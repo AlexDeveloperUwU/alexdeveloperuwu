@@ -4,8 +4,8 @@
 
 ## Tecnologías y Herramientas 🛠️
 
-- Lenguajes: HTML, CSS, JavaScript, Node.js, Python.
-- Frameworks: Vue.js, VuePress.
+- Lenguajes: HTML, CSS, JavaScript, Node.js y Python.
+- Frameworks: VuePress y VitePress.
 
 ## Proyectos Destacados 🚀
 
