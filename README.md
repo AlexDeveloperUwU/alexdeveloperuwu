@@ -1,6 +1,6 @@
 # ¡Hola, soy AlexDeveloperUwU! 👋
 
-¡Bienvenido/a a mi perfil de GitHub! Soy un apasionado programador que se dedica a crear soluciones web utilizando una variedad de tecnologías. Principalmente trabajo con HTML, CSS y JavaScript para crear interfaces atractivas y funcionales, y también tengo experiencia en el mundo del back-end con Node.js y Python.
+¡Bienvenido/a a mi perfil de GitHub! Soy un apasionado programador que se dedica a crear soluciones web utilizando una variedad de tecnologías. Principalmente trabajo con Node.js para programar el Backend de mis proyectos y con HTML, CSS y JS hago las interfaces gráficas que interactúan con el Backend.
 
 ## Tecnologías y Herramientas 🛠️
 
@@ -9,9 +9,9 @@
 
 ## Proyectos Destacados 🚀
 
-- [Azirax](https://azirax.tk): Proyecto del que soy el main developer, un bot de Discord multifunción.
-- [Reddit Meme Database](https://github.com/AlexDevFiles/reddit-meme-database): He creado una base de datos de memes utilizando un scrapper de Reddit. 
-- [Scripts Variados](https://github.com/AlexDeveloperUwU/scripts): Aquí encontrarás una colección de scripts útiles que he desarrollado.
+- [Azirax](https://azirax.tk): Proyecto del que soy el main developer, un bot de Discord multifunción que pretende ser el todo-en-uno que necesitas.
+- [Reddit Meme Database](https://github.com/AlexDevFiles/reddit-meme-database): He creado una "base de datos" de memes utilizando un scrapper de Reddit. 
+- [Scripts variados y mini proyectos](https://github.com/AlexDeveloperUwU/scripts): Aquí encontrarás una colección de scripts útiles que he desarrollado.
 - PiuniCraft Server: Fui responsable de configurar el servidor de Minecraft para los subs de Piuni.
 
 ## Estado Actual 🌱
@@ -22,7 +22,11 @@ Actualmente estoy trabajando en:
 - Mejorando [KuokoaVT](https://kuokoavt.eu) y creando nuevos subproyectos en él.
 - Explorando y desarrollando mini proyectos que despiertan mi creatividad.
 
-## Coding Stats 📊
+Además, estoy estudiando:
+
+- Ciclo Superior de Desarrollo de Aplicaciones Web
+
+## Estadísticas de programación 📊
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://wakatime.com/share/@AlexDevUwU/adf969ef-c8c4-45de-9faf-38c591cbf714.svg" alt="Wakatime Stats 1" width="45%"/>
