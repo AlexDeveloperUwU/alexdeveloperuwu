@@ -5,7 +5,7 @@
 ## Tecnologías y Herramientas 🛠️
 
 - Lenguajes: HTML, CSS, JavaScript, Node.js y Python.
-- Frameworks: VuePress y VitePress.
+- Frameworks: VuePress, VitePress, BootStrap.
 
 ## Proyectos Destacados 🚀
 
@@ -19,7 +19,8 @@
 Actualmente estoy trabajando en:
 
 - Mejoras y nuevas características para [Azirax](https://azirax.tk).
-- Mejorando [KuokoaVT](https://kuokoavt.eu) y creando nuevos subproyectos en él.
+- Mejorando [KuokoaVT](https://kuokoavt.eu).
+- Trabajando en ViT2BiT Labs
 - Explorando y desarrollando mini proyectos que despiertan mi creatividad.
 
 Además, estoy estudiando:
