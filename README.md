@@ -20,7 +20,7 @@ Actualmente estoy trabajando en:
 
 - Mejoras y nuevas características para [Azirax](https://azirax.tk).
 - Mejorando [KuokoaVT](https://kuokoavt.eu).
-- Trabajando en ViT2BiT Labs
+- Trabajando en ZyFeronix Studios
 - Explorando y desarrollando mini proyectos que despiertan mi creatividad.
 
 Además, estoy estudiando:
