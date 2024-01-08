@@ -27,11 +27,11 @@ Además, estoy estudiando:
 
 - Ciclo Superior de Desarrollo de Aplicaciones Web
 
-## Estadísticas de programación 📊
+## Estadísticas de programación [![wakatime](https://wakatime.com/badge/user/bf86471e-8eef-407a-8125-ccc771f3e40b.svg?style=social)](https://wakatime.com/@bf86471e-8eef-407a-8125-ccc771f3e40b)
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://wakatime.com/share/@AlexDevUwU/adf969ef-c8c4-45de-9faf-38c591cbf714.svg" alt="Wakatime Stats 1" width="45%"/>
-  <img src="https://wakatime.com/share/@AlexDevUwU/00163c4e-2b4b-4a93-9d5c-b1b0a12cf6ce.svg" alt="Wakatime Stats 2" width="45%"/>
+<div style="display: flex; justify-content: space-between; width: 50%; margin: 0.1px;">
+  <img src="https://wakatime.com/share/@AlexDevUwU/adf969ef-c8c4-45de-9faf-38c591cbf714.svg" alt="Wakatime Stats 1" width=49%/>
+  <img src="https://wakatime.com/share/@AlexDevUwU/00163c4e-2b4b-4a93-9d5c-b1b0a12cf6ce.svg" alt="Wakatime Stats 2" width=49%/>
 </div>
 
 ## Contacto 📫
