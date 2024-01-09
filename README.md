@@ -10,7 +10,6 @@
 ## Proyectos Destacados 🚀
 
 - [Azirax](https://azirax.tk): Proyecto del que soy el main developer, un bot de Discord multifunción que pretende ser el todo-en-uno que necesitas.
-- [Reddit Meme Database](https://github.com/AlexDevFiles/reddit-meme-database): He creado una "base de datos" de memes utilizando un scrapper de Reddit. 
 - [Scripts variados y mini proyectos](https://github.com/AlexDeveloperUwU/scripts): Aquí encontrarás una colección de scripts útiles que he desarrollado.
 - PiuniCraft Server: Fui responsable de configurar el servidor de Minecraft para los subs de Piuni.
 
@@ -19,8 +18,7 @@
 Actualmente estoy trabajando en:
 
 - Mejoras y nuevas características para [Azirax](https://azirax.tk).
-- Mejorando [KuokoaVT](https://kuokoavt.eu).
-- Trabajando en ZyFeronix Studios
+- Creando la web de [LiberTeis](https://github.com/alexdeveloperuwu/liberteis)
 - Explorando y desarrollando mini proyectos que despiertan mi creatividad.
 
 Además, estoy estudiando:
