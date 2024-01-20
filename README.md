@@ -11,7 +11,7 @@
 
 - [Azirax](https://azirax.tk): Proyecto del que soy el main developer, un bot de Discord multifunción que pretende ser el todo-en-uno que necesitas.
 - [Scripts variados y mini proyectos](https://github.com/AlexDeveloperUwU/scripts): Aquí encontrarás una colección de scripts útiles que he desarrollado.
-- PiuniCraft Server: Fui responsable de configurar el servidor de Minecraft para los subs de Piuni.
+- [LiberTeis Event Manager](https://github.com/AlexDeveloperUwU/liberteis): encontrarás una web para gestión de eventos diseñada en específico para el IES de Teis
 
 ## Estado Actual 🌱
 
