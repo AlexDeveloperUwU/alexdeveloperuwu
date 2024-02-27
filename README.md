@@ -17,7 +17,7 @@
 
 Actualmente estoy trabajando en:
 
-- Mejoras y nuevas características para [Azirax](https://azirax.tk).
+- Mejoras y nuevas características para [Azirax](https://azirax.site).
 - Creando la web de [LiberTeis](https://github.com/alexdeveloperuwu/liberteis)
 - Explorando y desarrollando mini proyectos que despiertan mi creatividad.
 
