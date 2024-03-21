@@ -1,24 +1,25 @@
 # ¡Hola, soy Alex! 👋
 
-¡Bienvenido/a a mi perfil de GitHub! Soy un apasionado programador que se dedica a crear soluciones web utilizando una variedad de tecnologías. Principalmente trabajo con Node.js para programar el Backend de mis proyectos y con HTML, CSS y JS hago las interfaces gráficas que interactúan con el Backend.
+¡Te doy la bienvenida a mi perfil de GitHub! Soy un apasionado programador que se dedica a crear soluciones web utilizando una variedad de tecnologías. Principalmente trabajo con Node.js para programar el backend de mis proyectos y con HTML, CSS y JS hago las interfaces gráficas que interactúan con él.
 
 ## Tecnologías y Herramientas 🛠️
 
-- Lenguajes: HTML, CSS, JavaScript, Node.js, Python y SQL.
-- Frameworks: VuePress, VitePress y BootStrap.
+- **Lenguajes:** HTML, CSS, JavaScript (web), Node.js (backend), Python, SQL, Java (en aprendizaje).
+- **Frameworks:** VuePress, VitePress, Bootstrap.
+- **Herramientas:** VSCode, IntelliJ IDEA, NetBeans.
 
 ## Proyectos Destacados 🚀
 
-- [Azirax](https://azirax.site): Proyecto del que soy el main developer, un bot de Discord multifunción que pretende ser el todo-en-uno que necesitas.
-- [Scripts variados y mini proyectos](https://github.com/AlexDeveloperUwU/miniprojects): Aquí encontrarás una colección de scripts útiles que he desarrollado.
-- [LiberTeis Event Manager](https://github.com/AlexDeveloperUwU/liberteis): encontrarás una web para gestión de eventos diseñada en específico para el IES de Teis
+- [Azirax](https://azirax.site): Un bot de Discord multifunción.
+- [Mis mini proyectos](https://github.com/AlexDeveloperUwU/miniprojects): Una colección de proyectos útiles para optimizar procesos.
+- [LiberTeis Event Manager](https://github.com/AlexDeveloperUwU/liberteis): Una web para gestión de eventos para el IES de Teis.
 
 ## Estado Actual 🌱
 
 Actualmente estoy trabajando en:
 
 - Mejoras y nuevas características para [Azirax](https://azirax.site).
-- Creando la web de [LiberTeis](https://github.com/alexdeveloperuwu/liberteis)
+- Creando la aplicación de [LiberTeis](https://github.com/alexdeveloperuwu/liberteis)
 - Explorando y desarrollando [mini proyectos](https://github.com/AlexDeveloperUwU/miniprojects) que despiertan mi creatividad.
 
 Además, estoy estudiando:
@@ -37,5 +38,6 @@ Además, estoy estudiando:
 ¡Me encanta conectar con otros desarrolladores y entusiastas de la tecnología! Puedes encontrarme en:
 
 - Sitio Web: [https://alexdevuwu.com](https://alexdevuwu.com)
+- Correo electrónico: [alex@alexdevuwu.com](mailto:alex@alexdevuwu.com)
 - Twitter: [@AlexDevUwU](https://twitter.com/AlexDevUwU)
 - Twitch: [AlexDevUwU](https://twitch.tv/alexdevuwu)
