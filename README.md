@@ -4,7 +4,7 @@
 
 ## Tecnologías y Herramientas 🛠️
 
-- **Lenguajes:** HTML, CSS, JavaScript (web), Node.js (backend), Python, SQL, Java (en aprendizaje).
+- **Lenguajes:** HTML, CSS, JavaScript, Node.js, Python, SQL (en aprendizaje), Java (en aprendizaje).
 - **Frameworks:** VuePress, VitePress, Bootstrap.
 - **Herramientas:** VSCode, IntelliJ IDEA, NetBeans.
 
@@ -12,15 +12,15 @@
 
 - [Azirax](https://azirax.site): Un bot de Discord multifunción.
 - [Mis mini proyectos](https://github.com/AlexDeveloperUwU/miniprojects): Una colección de proyectos útiles para optimizar procesos.
-- [LiberTeis Event Manager](https://github.com/AlexDeveloperUwU/liberteis): Una web para gestión de eventos para el IES de Teis.
+- [LiberTeis](https://github.com/AlexDeveloperUwU/liberteis): Una web para gestión de eventos para el IES de Teis.
 
 ## Estado Actual 🌱
 
 Actualmente estoy trabajando en:
 
 - Mejoras y nuevas características para [Azirax](https://azirax.site).
-- Creando la aplicación de [LiberTeis](https://github.com/alexdeveloperuwu/liberteis)
 - Explorando y desarrollando [mini proyectos](https://github.com/AlexDeveloperUwU/miniprojects) que despiertan mi creatividad.
+- Creando la aplicación de [LiberTeis](https://github.com/alexdeveloperuwu/liberteis)
 
 Además, estoy estudiando:
 
