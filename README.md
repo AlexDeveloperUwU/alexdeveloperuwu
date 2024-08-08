@@ -4,8 +4,6 @@
 
 ## Tech Stack 🛠️
 
-¡Entendido! Aquí tienes tu tech stack con badges de Shields.io en el mismo estilo:
-
 ### Lenguajes de Programación
 - ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
