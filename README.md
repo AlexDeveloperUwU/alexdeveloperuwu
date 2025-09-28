@@ -1,6 +1,4 @@
 <div id="header" align="center">
-  <!-- Static Header -->
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   <h1>
     Hey there, I'm Alex 👋
   </h1>
