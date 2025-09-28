@@ -1,67 +1,86 @@
-# Hello, I'm Alex! 👋
+<div id="header" align="center">
+  <!-- Static Header -->
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <h1>
+    Hey there, I'm Alex 👋
+  </h1>
+  <p>
+    I build efficient, creative, and scalable solutions for the web.
+  </p>
 
-Welcome to my GitHub profile! I'm a passionate programmer dedicated to creating web solutions using a variety of technologies. I primarily work with Node.js for backend development and HTML, CSS, and JS for creating graphical interfaces.
-
-## 🛠️ Tech Stack
-
-### Languages
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-
-### Development Environments
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
-![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea)
-![NetBeans](https://img.shields.io/badge/-NetBeans-1B6AC6?style=flat-square&logo=apache-netbeans-ide)
-
-### Frameworks and Libraries
-![VuePress](https://img.shields.io/badge/-VuePress-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![VitePress](https://img.shields.io/badge/-VitePress-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![EJS](https://img.shields.io/badge/-EJS-000000?style=flat-square&logo=ejs&logoColor=white)
-
-### Containerization and Virtualization
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![WSL](https://img.shields.io/badge/-WSL-4E9A06?style=flat-square&logo=linux&logoColor=white)
-
-### Operating Systems
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-
-## 🚀 Featured Projects
-
-- [**Azirax**](https://azirax.site): A multifunctional Discord bot.
-- [**My mini projects**](https://github.com/AlexDeveloperUwU/miniprojects): A collection of useful projects for optimizing processes.
-- [**LiberTeis**](https://github.com/AlexDeveloperUwU/liberteis): A web application for event management at IES de Teis.
-
-## 🌱 Current Status
-
-I am currently working on:
-- Enhancements and new features for [Azirax](https://azirax.site).
-- Exploring and developing [mini projects](https://github.com/AlexDeveloperUwU/miniprojects) that spark my creativity.
-- Creating the [LiberTeis](https://github.com/alexdeveloperuwu/liberteis) application.
-
-Additionally, I am studying:
-- Advanced Web Application Development
-
-## 📊 Programming Statistics
-
-[![wakatime](https://wakatime.com/badge/user/bf86471e-8eef-407a-8125-ccc771f3e40b.svg?style=social)](https://wakatime.com/@bf86471e-8eef-407a-8125-ccc771f3e40b)
-
-<div style="display: flex; justify-content: space-between; width: 100%; margin: 10px 0;">
-  <img src="https://wakatime.com/share/@AlexDevUwU/adf969ef-c8c4-45de-9faf-38c591cbf714.svg" alt="Wakatime Stats 1" width="49%"/>
-  <img src="https://wakatime.com/share/@AlexDevUwU/00163c4e-2b4b-4a93-9d5c-b1b0a12cf6ce.svg" alt="Wakatime Stats 2" width="49%"/>
+  <!-- Social Badges -->
+  <div align="center">
+    <a href="https://alexdevuwu.com" target="_blank">
+      <img src="https://img.shields.io/badge/Website-255,255,255?style=for-the-badge" alt="Website"/>
+    </a>
+    <a href="https://twitter.com/AlexDevUwU" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/>
+    </a>
+    <a href="mailto:alex@alexdevuwu.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://twitch.tv/alexdevuwu" target="_blank">
+      <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"/>
+    </a>
+  </div>
 </div>
 
-## 📫 Contact
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-I love connecting with other developers and tech enthusiasts! You can find me at:
-- **Website**: [alexdevuwu.com](https://alexdevuwu.com)
-- **Email**: [alex@alexdevuwu.com](mailto:alex@alexdevuwu.com)
-- **Twitter**: [@AlexDevUwU](https://twitter.com/AlexDevUwU)
-- **Twitch**: [AlexDevUwU](https://twitch.tv/alexdevuwu)
+### 🌱 My Current Focus
+
+- 🚀 **Building:** Continuously enhancing **Azirax** and collaborating on new, ambitious projects at **TakitosCorp**.
+- 🧠 **Learning:** Diving deeper into Domain-Driven Design (DDD) and exploring microservices architectures with .NET.
+- 💡 **Interested In:** Performance optimization, scalable infrastructure, and creating amazing developer tools.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+### 🛠️ My Tech Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" /><br>JavaScript</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" /><br>Node.js</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" /><br>C#</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" width="48" height="48" alt=".NET" /><br>.NET</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL" /><br>MySQL</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" /><br>PostgreSQL</td>
+  </tr>
+  <tr>
+    <td align="center" width="96"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="48" height="48" alt="Tailwind CSS" /><br>Tailwind</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" /><br>HTML5</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" /><br>CSS3</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" /><br>Docker</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48" height="48" alt="Git" /><br>Git</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="48" height="48" alt="VS Code" /><br>VS Code</td>
+  </tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+### 🚀 My Projects
+
+| Project | Description | Link(s) |
+|---|---|---|
+| 👑 **Azirax** | A multifunctional Discord bot for server management and entertainment. | [🌐 Live Site](https://azirax.oops.wtf) |
+| 💌 **Takimbox** | [Team] A web app for leaving messages, styled like the Nintendo Wii Message Board. | [</> Code](https://github.com/TakitosCorp/takimbox) |
+| 🃏 **GalaCards** | [Team] An online 'Who Am I?' game for streamers, focused on VTubers. | [</> Code](https://github.com/TakitosCorp/galacards) |
+| 🗓️ **LiberTeis** | A web application for managing events at IES de Teis. | [</> Code](https://github.com/AlexDeveloperUwU/liberteis) |
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+### 📊 Stats & Activity
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=AlexDeveloperUwU&show_icons=true&theme=dracula&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=AlexDeveloperUwU&theme=dracula&hide_border=true" alt="GitHub Streak" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://wakatime.com/share/@AlexDevUwU/adf969ef-c8c4-45de-9faf-38c591cbf714.svg" alt="Wakatime Language Stats" />
+    </td>
+  </tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
