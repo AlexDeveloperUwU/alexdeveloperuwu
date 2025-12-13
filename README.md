@@ -5,6 +5,9 @@
   <p>
     I build efficient, creative, and scalable solutions for the web.
   </p>
+  <p>
+    Currently working full time, so expect only a few commits per month.
+  </p>
 
   <!-- Social Badges -->
   <div align="center">
