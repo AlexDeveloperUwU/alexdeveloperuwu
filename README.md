@@ -1,17 +1,5 @@
 <div id="header" align="center">
   <img src="assets/header.svg" alt="Alex Verde — @alexdevuwu" width="100%"/>
-  <!-- Social Badges -->
-  <div align="center">
-    <a href="https://alexdevuwu.com" target="_blank">
-      <img src="https://img.shields.io/badge/Website-1e293b?style=for-the-badge&logo=googlechrome&logoColor=60a5fa" alt="Website"/>
-    </a>
-    <a href="https://twitter.com/AlexDevUwU" target="_blank">
-      <img src="https://img.shields.io/badge/Twitter-1e293b?style=for-the-badge&logo=x&logoColor=60a5fa" alt="Twitter"/>
-    </a>
-    <a href="mailto:alex@alexdevuwu.com">
-      <img src="https://img.shields.io/badge/Email-1e293b?style=for-the-badge&logo=gmail&logoColor=60a5fa" alt="Email"/>
-    </a>
-  </div>
 </div>
 
 <img src="assets/divider.svg" alt="" width="100%"/>
