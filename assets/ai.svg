@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" fill="none">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e2c"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  <linearGradient id="icon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b4d69" stop-opacity="0"/><stop offset=".5" stop-color="#3b4d69" stop-opacity=".6"/><stop offset="1" stop-color="#3b4d69" stop-opacity="0"/></linearGradient>
+  <linearGradient id="glowline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6" stop-opacity="0"/><stop offset=".35" stop-color="#3b82f6" stop-opacity=".8"/><stop offset=".65" stop-color="#06b6d4" stop-opacity=".8"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></linearGradient>
+  <filter id="blur" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+<style>
+  text{font-family:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace}
+  .sans{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}
+  .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{50%{opacity:.35;transform:scale(1.6)}}
+  @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+</style></defs>
+
+<g transform="translate(10 6)">
+  <rect x=".5" y=".5" width="859" height="379" rx="12" fill="url(#card)" stroke="#2d3a54"/>
+  <path d="M1 32V13a12 12 0 0 1 12-12h834a12 12 0 0 1 12 12v19z" fill="#2c394f"/>
+  <path d="M1 32.5h858" stroke="#3b4d69"/>
+  <text x="14" y="21" font-size="12" fill="#fff">~/about/ai-usage.md</text>
+  <g transform="translate(798 10)">
+    <rect width="12" height="12" rx="2" fill="#fbbf24"/><rect x="20" width="12" height="12" rx="2" fill="#10b981"/><rect x="40" width="12" height="12" rx="2" fill="#ef4444"/>
+    <g font-size="9" font-weight="700" fill="#0f172a" fill-opacity=".5" text-anchor="middle"><text x="6" y="9.5">−</text><text x="26" y="9.5">□</text><text x="46" y="9.5">×</text></g>
+  </g>
+</g>
+<text class="sans" x="40" y="74" font-size="14" fill="#cbd5e1">I treat AI as a tool, not a shortcut. I mostly use it to plan roadmaps, ask questions and polish documentation.</text>
+<text class="sans" x="40" y="98" font-size="14" fill="#cbd5e1">In my personal projects I try to keep it out of the code, because I want to learn, I enjoy coding, and I want to</text>
+<text class="sans" x="40" y="122" font-size="14" fill="#cbd5e1">fully understand and own what I ship. When it is simply useful, I use it, review every line before it ships, and</text>
+<text class="sans" x="40" y="146" font-size="14" fill="#cbd5e1">disclose it in that project's README with one of the levels below.</text>
+<text x="40" y="188" font-size="13"><tspan fill="#7d8fa8">// </tspan><tspan fill="#60a5fa">Levels</tspan></text>
+
+<rect x="40" y="204" width="54" height="24" rx="6" stroke="#10b981"/>
+<text x="67" y="220" font-size="12" text-anchor="middle" fill="#10b981">None</text>
+<text class="sans" x="170" y="220" font-size="13" fill="#7d8fa8">No AI involved.</text>
+
+<rect x="40" y="238" width="102" height="24" rx="6" stroke="#60a5fa"/>
+<text x="91" y="254" font-size="12" text-anchor="middle" fill="#60a5fa">Consulting</text>
+<text class="sans" x="170" y="254" font-size="13" fill="#7d8fa8">Questions, roadmaps, planning and docs. Nothing code related.</text>
+
+<rect x="40" y="272" width="86" height="24" rx="6" stroke="#f59e0b"/>
+<text x="83" y="288" font-size="12" text-anchor="middle" fill="#f59e0b">Assisted</text>
+<text class="sans" x="170" y="288" font-size="13" fill="#7d8fa8">AI wrote some files or features.</text>
+
+<rect x="40" y="306" width="102" height="24" rx="6" stroke="#f97316"/>
+<text x="91" y="322" font-size="12" text-anchor="middle" fill="#f97316">Co-created</text>
+<text class="sans" x="170" y="322" font-size="13" fill="#7d8fa8">A lot of the project was AI-assisted.</text>
+
+<rect x="40" y="340" width="94" height="24" rx="6" stroke="#ec4899"/>
+<text x="87" y="356" font-size="12" text-anchor="middle" fill="#ec4899">Generated</text>
+<text class="sans" x="170" y="356" font-size="13" fill="#7d8fa8">Fully built with AI. My only input was prompting.</text>
+</svg>

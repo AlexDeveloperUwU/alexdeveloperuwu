@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
@@ -9,6 +9,9 @@ const readJson = (file) => JSON.parse(readFileSync(path.join(ROOT, 'data', file)
 
 const profile = readJson('profile.json')
 const projects = readJson('projects.json')
+const stack = readJson('stack.json')
+const ai = readJson('ai.json')
+const ICONS = path.join(ROOT, 'data', 'icons')
 
 const MONO = "'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace"
 const SANS = "Inter,'Segoe UI',Helvetica,Arial,sans-serif"
@@ -101,6 +104,7 @@ const section = (file, title, subtitle) =>
 section('title-about', 'About me', 'Get to know me a little more!')
 section('title-focus', 'Current focus', 'What I am up to right now')
 section('title-stack', 'Tech stack', 'The tools I reach for')
+section('title-ai', 'AI usage', 'How, where and how much I use it')
 section('title-projects', 'Projects', 'A selection of my most outstanding projects')
 section('title-stats', 'Stats & activity', 'Numbers and streaks')
 
@@ -156,6 +160,68 @@ ${profile.focus
   .join('\n')}
 `),
 )
+
+/** Returns the icon as a data URI, downloading it into `data/icons` the first time so later runs work offline. */
+async function iconUri({ name, icon, ext }) {
+  const type = ext ?? path.extname(new URL(icon).pathname).slice(1).toLowerCase()
+  const file = path.join(ICONS, `${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.${type}`)
+  if (!existsSync(file)) {
+    const res = await fetch(icon)
+    if (!res.ok) throw new Error(`Icon "${name}" returned ${res.status}`)
+    mkdirSync(ICONS, { recursive: true })
+    writeFileSync(file, Buffer.from(await res.arrayBuffer()))
+  }
+  const mime = type === 'svg' ? 'image/svg+xml' : `image/${type}`
+  return `data:${mime};base64,${readFileSync(file).toString('base64')}`
+}
+
+const TILE_W = 192
+const TILE_H = 84
+const TILE_GAP = 12
+const PER_ROW = 4
+let stackY = 70
+const stackParts = []
+for (const { group, items } of stack) {
+  stackParts.push(
+    `<text x="40" y="${stackY}" font-size="13"><tspan fill="${C.comment}">// </tspan><tspan fill="${C.keyword}">${esc(group)}</tspan></text>`,
+  )
+  stackY += 16
+  for (const [i, item] of items.entries()) {
+    const x = 38 + (i % PER_ROW) * (TILE_W + TILE_GAP)
+    const y = stackY + Math.floor(i / PER_ROW) * (TILE_H + TILE_GAP)
+    stackParts.push(`
+<g transform="translate(${x} ${y})">
+  <rect width="${TILE_W}" height="${TILE_H}" rx="8" fill="#1e293b" fill-opacity=".5"/>
+  <image x="${TILE_W / 2 - 18}" y="12" width="36" height="36" href="${await iconUri(item)}"/>
+  <text x="${TILE_W / 2}" y="68" font-size="11" text-anchor="middle" fill="${C.text}">${esc(item.name)}</text>
+</g>`)
+  }
+  stackY += Math.ceil(items.length / PER_ROW) * (TILE_H + TILE_GAP) + 18
+}
+
+const stackH = stackY + 10
+write('stack.svg', svg(880, stackH + 12, `${win(10, 6, 860, stackH, '~/stack/toolbox.md')}\n${stackParts.join('\n')}`))
+
+const aiParts = []
+let aiY = 74
+for (const line of wrap(ai.statement, 112)) {
+  aiParts.push(`<text class="sans" x="40" y="${aiY}" font-size="14" fill="${C.text}">${esc(line)}</text>`)
+  aiY += 24
+}
+
+aiY += 18
+aiParts.push(`<text x="40" y="${aiY}" font-size="13"><tspan fill="${C.comment}">// </tspan><tspan fill="${C.keyword}">Levels</tspan></text>`)
+aiY += 16
+for (const l of ai.levels) {
+  aiParts.push(`
+<rect x="40" y="${aiY}" width="${l.label.length * 8 + 22}" height="24" rx="6" stroke="${l.color}"/>
+<text x="${40 + (l.label.length * 8 + 22) / 2}" y="${aiY + 16}" font-size="12" text-anchor="middle" fill="${l.color}">${esc(l.label)}</text>
+<text class="sans" x="170" y="${aiY + 16}" font-size="13" fill="${C.comment}">${esc(l.description)}</text>`)
+  aiY += 34
+}
+
+const aiH = aiY + 6
+write('ai.svg', svg(880, aiH + 12, `${win(10, 6, 860, aiH, '~/about/ai-usage.md')}\n${aiParts.join('\n')}`))
 
 const wrapAt = 44
 const maxLines = Math.max(...projects.map((p) => wrap(p.description, wrapAt).length))

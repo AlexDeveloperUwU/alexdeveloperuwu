@@ -1,0 +1,10 @@
+{
+  "statement": "I treat AI as a tool, not a shortcut. I mostly use it to plan roadmaps, ask questions and polish documentation. In my personal projects I try to keep it out of the code, because I want to learn, I enjoy coding, and I want to fully understand and own what I ship. When it is simply useful, I use it, review every line before it ships, and disclose it in that project's README with one of the levels below.",
+  "levels": [
+    { "id": "none", "label": "None", "color": "#10b981", "description": "No AI involved." },
+    { "id": "consulting", "label": "Consulting", "color": "#60a5fa", "description": "Questions, roadmaps, planning and docs. Nothing code related." },
+    { "id": "assisted", "label": "Assisted", "color": "#f59e0b", "description": "AI wrote some files or features." },
+    { "id": "co-created", "label": "Co-created", "color": "#f97316", "description": "A lot of the project was AI-assisted." },
+    { "id": "generated", "label": "Generated", "color": "#ec4899", "description": "Fully built with AI. My only input was prompting." }
+  ]
+}
