@@ -1,0 +1,19 @@
+{
+  "name": "Alex Verde",
+  "handle": "alexdevuwu",
+  "github": "AlexDeveloperUwU",
+  "tagline": "I build efficient, creative and scalable solutions for the web",
+  "codingSince": "2022",
+  "role": "Full time developer",
+  "stack": "Node.js · .NET",
+  "building": "LiberTeis & more",
+  "bio": [
+    "Passionate programmer and gamer in my free time.",
+    "I mainly build web apps and deploy servers of all kinds, always with coffee."
+  ],
+  "focus": [
+    { "key": "building", "value": "LiberTeis and a bunch of other projects" },
+    { "key": "learning", "value": "Domain-Driven Design and .NET microservices" },
+    { "key": "interestedIn", "value": "performance, scalable infra and developer tools" }
+  ]
+}

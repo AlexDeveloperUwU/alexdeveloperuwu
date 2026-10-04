@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="184" viewBox="0 0 880 184" fill="none">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e2c"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  <linearGradient id="icon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b4d69" stop-opacity="0"/><stop offset=".5" stop-color="#3b4d69" stop-opacity=".6"/><stop offset="1" stop-color="#3b4d69" stop-opacity="0"/></linearGradient>
+  <linearGradient id="glowline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6" stop-opacity="0"/><stop offset=".35" stop-color="#3b82f6" stop-opacity=".8"/><stop offset=".65" stop-color="#06b6d4" stop-opacity=".8"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></linearGradient>
+  <filter id="blur" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+<style>
+  text{font-family:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace}
+  .sans{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}
+  .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{50%{opacity:.35;transform:scale(1.6)}}
+  @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+</style></defs>
+
+
+<g transform="translate(10 6)">
+  <rect x=".5" y=".5" width="859" height="171" rx="12" fill="url(#card)" stroke="#2d3a54"/>
+  <path d="M1 32V13a12 12 0 0 1 12-12h834a12 12 0 0 1 12 12v19z" fill="#2c394f"/>
+  <path d="M1 32.5h858" stroke="#3b4d69"/>
+  <text x="14" y="21" font-size="12" fill="#fff">~/focus/now.js</text>
+  <g transform="translate(798 10)">
+    <rect width="12" height="12" rx="2" fill="#fbbf24"/><rect x="20" width="12" height="12" rx="2" fill="#10b981"/><rect x="40" width="12" height="12" rx="2" fill="#ef4444"/>
+    <g font-size="9" font-weight="700" fill="#0f172a" fill-opacity=".5" text-anchor="middle"><text x="6" y="9.5">−</text><text x="26" y="9.5">□</text><text x="46" y="9.5">×</text></g>
+  </g>
+</g>
+<text x="40" y="84" font-size="14"><tspan fill="#60a5fa">const </tspan><tspan fill="#ec4899">building</tspan><tspan fill="#ffffff"> = </tspan><tspan fill="#10b981">"LiberTeis and a bunch of other projects"</tspan><tspan fill="#4a5b7a">;</tspan></text>
+<text x="40" y="118" font-size="14"><tspan fill="#60a5fa">const </tspan><tspan fill="#ec4899">learning</tspan><tspan fill="#ffffff"> = </tspan><tspan fill="#10b981">"Domain-Driven Design and .NET microservices"</tspan><tspan fill="#4a5b7a">;</tspan></text>
+<text x="40" y="152" font-size="14"><tspan fill="#60a5fa">const </tspan><tspan fill="#ec4899">interestedIn</tspan><tspan fill="#ffffff"> = </tspan><tspan fill="#10b981">"performance, scalable infra and developer tools"</tspan><tspan fill="#4a5b7a">;</tspan></text>
+
+</svg>

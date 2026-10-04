@@ -1,0 +1,38 @@
+[
+  {
+    "id": "azirax",
+    "name": "Azirax",
+    "org": "personal",
+    "kind": "solo",
+    "description": "A multifunctional Discord bot for server management and entertainment.",
+    "linkLabel": "live site",
+    "url": "https://azirax.oops.wtf"
+  },
+  {
+    "id": "takimbox",
+    "name": "Takimbox",
+    "org": "gaocorp",
+    "kind": "team",
+    "description": "A web app for leaving messages, styled like the Nintendo Wii Message Board.",
+    "linkLabel": "source code",
+    "url": "https://github.com/TakitosCorp/takimbox"
+  },
+  {
+    "id": "galacards",
+    "name": "GalaCards",
+    "org": "gaocorp",
+    "kind": "team",
+    "description": "An online 'Who Am I?' game for streamers, focused on VTubers.",
+    "linkLabel": "source code",
+    "url": "https://github.com/TakitosCorp/galacards"
+  },
+  {
+    "id": "liberteis",
+    "name": "LiberTeis",
+    "org": "personal",
+    "kind": "solo",
+    "description": "A web application for managing events at IES de Teis.",
+    "linkLabel": "source code",
+    "url": "https://github.com/AlexDeveloperUwU/liberteis"
+  }
+]

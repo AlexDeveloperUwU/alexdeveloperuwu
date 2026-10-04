@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="104" viewBox="0 0 880 104" fill="none">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e2c"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  <linearGradient id="icon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b4d69" stop-opacity="0"/><stop offset=".5" stop-color="#3b4d69" stop-opacity=".6"/><stop offset="1" stop-color="#3b4d69" stop-opacity="0"/></linearGradient>
+  <linearGradient id="glowline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6" stop-opacity="0"/><stop offset=".35" stop-color="#3b82f6" stop-opacity=".8"/><stop offset=".65" stop-color="#06b6d4" stop-opacity=".8"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></linearGradient>
+  <filter id="blur" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+<style>
+  text{font-family:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace}
+  .sans{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}
+  .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{50%{opacity:.35;transform:scale(1.6)}}
+  @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+</style></defs>
+
+<text x="440" y="48" font-size="28" font-weight="700" text-anchor="middle"><tspan fill="#7d8fa8">// </tspan><tspan fill="url(#grad)">About me</tspan></text>
+<text x="440" y="80" font-size="13" text-anchor="middle" fill="#7d8fa8">/* Get to know me a little more! */</text>
+
+</svg>

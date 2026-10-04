@@ -1,51 +1,40 @@
 <div id="header" align="center">
-  <h1>
-    Hey there, I'm Alex 👋
-  </h1>
-  <p>
-    I build efficient, creative, and scalable solutions for the web.
-  </p>
-  <p>
-    Currently working full time, so expect only a few commits per month.
-  </p>
-
+  <img src="assets/header.svg" alt="Alex Verde — @alexdevuwu" width="100%"/>
   <!-- Social Badges -->
   <div align="center">
     <a href="https://alexdevuwu.com" target="_blank">
-      <img src="https://img.shields.io/badge/Website-255,255,255?style=for-the-badge" alt="Website"/>
+      <img src="https://img.shields.io/badge/Website-1e293b?style=for-the-badge&logo=googlechrome&logoColor=60a5fa" alt="Website"/>
     </a>
     <a href="https://twitter.com/AlexDevUwU" target="_blank">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/>
+      <img src="https://img.shields.io/badge/Twitter-1e293b?style=for-the-badge&logo=x&logoColor=60a5fa" alt="Twitter"/>
     </a>
     <a href="mailto:alex@alexdevuwu.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-    <a href="https://twitch.tv/alexdevuwu" target="_blank">
-      <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"/>
+      <img src="https://img.shields.io/badge/Email-1e293b?style=for-the-badge&logo=gmail&logoColor=60a5fa" alt="Email"/>
     </a>
   </div>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-### 🌱 My Current Focus
+<img src="assets/title-about.svg" alt="About me" width="100%"/>
+<img src="assets/about.svg" alt="~/about/developer.md" width="100%"/>
 
-- 🚀 **Building:** Continuously enhancing **Azirax** and collaborating on new, ambitious projects at **TakitosCorp**.
-- 🧠 **Learning:** Diving deeper into Domain-Driven Design (DDD) and exploring microservices architectures with .NET.
-- 💡 **Interested In:** Performance optimization, scalable infrastructure, and creating amazing developer tools.
+<img src="assets/title-focus.svg" alt="Current focus" width="100%"/>
+<img src="assets/focus.svg" alt="~/focus/now.js" width="100%"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-### 🛠️ My Tech Stack
+<img src="assets/title-stack.svg" alt="Tech stack" width="100%"/>
+
 <table align="center" style="width:100%; border-collapse: collapse;">
   <tr style="border-bottom: 1px solid #30363d;">
     <th colspan="4" align="center" style="padding: 10px;"><h3>Languages & Backend</h3></th>
   </tr>
   <tr style="border-bottom: 1px solid #30363d;">
-    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" /><br>JavaScript</td>
     <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" /><br>Node.js</td>
-    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" /><br>C#</td>
     <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" width="48" height="48" alt=".NET" /><br>.NET</td>
+    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" /><br>JavaScript</td>
+    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" /><br>C#</td>
   </tr>
   
   <tr style="border-bottom: 1px solid #30363d;">
@@ -54,18 +43,18 @@
   <tr style="border-bottom: 1px solid #30363d;">
     <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" /><br>HTML5</td>
     <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" /><br>CSS3</td>
-    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="48" height="48" alt="Bootstrap" /><br>Bootstrap</td>
     <td align="center" width="96" style="padding: 10px;"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="48" height="48" alt="Tailwind CSS" /><br>Tailwind</td>
+    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="48" height="48" alt="Bootstrap" /><br>Bootstrap</td>
   </tr>
 
   <tr style="border-bottom: 1px solid #30363d;">
     <th colspan="4" align="center" style="padding: 10px;"><h3>Databases</h3></th>
   </tr>
   <tr style="border-bottom: 1px solid #30363d;">
-    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL" /><br>MySQL</td>
     <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" /><br>PostgreSQL</td>
-    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB" /><br>MongoDB</td>
+    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL" /><br>MySQL</td>
     <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="48" height="48" alt="SQLite" /><br>SQLite</td>
+    <td align="center" width="96" style="padding: 10px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB" /><br>MongoDB</td>
   </tr>
 
   <tr>
@@ -91,26 +80,32 @@
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-### 🚀 My Projects
+<img src="assets/title-projects.svg" alt="Projects" width="100%"/>
 
-| Project | Description | Link(s) |
-|---|---|---|
-| 👑 **Azirax** | A multifunctional Discord bot for server management and entertainment. | [🌐 Live Site](https://azirax.oops.wtf) |
-| 💌 **Takimbox** | [Team] A web app for leaving messages, styled like the Nintendo Wii Message Board. | [</> Code](https://github.com/TakitosCorp/takimbox) |
-| 🃏 **GalaCards** | [Team] An online 'Who Am I?' game for streamers, focused on VTubers. | [</> Code](https://github.com/TakitosCorp/galacards) |
-| 🗓️ **LiberTeis** | A web application for managing events at IES de Teis. | [</> Code](https://github.com/AlexDeveloperUwU/liberteis) |
+<!-- projects:start -->
+<table width="100%">
+  <tr>
+    <td width="50%"><a href="https://azirax.oops.wtf"><img src="assets/project-azirax.svg" alt="Azirax" width="100%"/></a></td>
+    <td width="50%"><a href="https://github.com/TakitosCorp/takimbox"><img src="assets/project-takimbox.svg" alt="Takimbox" width="100%"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/TakitosCorp/galacards"><img src="assets/project-galacards.svg" alt="GalaCards" width="100%"/></a></td>
+    <td width="50%"><a href="https://github.com/AlexDeveloperUwU/liberteis"><img src="assets/project-liberteis.svg" alt="LiberTeis" width="100%"/></a></td>
+  </tr>
+</table>
+<!-- projects:end -->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-### 📊 Stats & Activity
+<img src="assets/title-stats.svg" alt="Stats & activity" width="100%"/>
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=AlexDeveloperUwU&show_icons=true&theme=dracula&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=AlexDeveloperUwU&theme=dracula&hide_border=true" alt="GitHub Streak" />
+      <img src="https://github-readme-stats.vercel.app/api?username=AlexDeveloperUwU&show_icons=true&count_private=true&include_all_commits=true&bg_color=151e2c&border_color=2d3a54&title_color=60a5fa&text_color=cbd5e1&icon_color=06b6d4&border_radius=12" alt="GitHub Stats" />
+      <img src="https://streak-stats.demolab.com?user=AlexDeveloperUwU&background=151e2c&border=2d3a54&ring=3b82f6&fire=06b6d4&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=60a5fa&sideLabels=cbd5e1&dates=7d8fa8&border_radius=12" alt="GitHub Streak" />
     </td>
     <td width="50%" valign="top">
       <img src="https://wakatime.com/share/@AlexDevUwU/adf969ef-c8c4-45de-9faf-38c591cbf714.svg" alt="Wakatime Language Stats" />
@@ -118,4 +113,4 @@
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="assets/divider.svg" alt="" width="100%"/>
