@@ -104,7 +104,7 @@ const section = (file, title, subtitle) =>
 section('title-about', 'About me', 'Get to know me a little more!')
 section('title-focus', 'Current focus', 'What I am up to right now')
 section('title-stack', 'Tech stack', 'The tools I reach for')
-section('title-ai', 'AI usage', 'How, where and how much I use it')
+section('title-ai', 'AI usage', 'The mind is always mine, the levels show how much AI was involved')
 section('title-projects', 'Projects', 'A selection of my most outstanding projects')
 section('title-stats', 'Stats & activity', 'Numbers and streaks')
 
@@ -212,11 +212,15 @@ for (const line of wrap(ai.statement, 112)) {
 aiY += 18
 aiParts.push(`<text x="40" y="${aiY}" font-size="13"><tspan fill="${C.comment}">// </tspan><tspan fill="${C.keyword}">Levels</tspan></text>`)
 aiY += 16
-for (const l of ai.levels) {
+for (const [i, l] of ai.levels.entries()) {
+  const meter = Array.from({ length: ai.levels.length - 1 }, (_, n) =>
+    `<rect x="${170 + n * 14}" y="${aiY + 7}" width="10" height="10" rx="2" ${n < i ? `fill="${l.color}"` : `stroke="#3b4d69"`}/>`,
+  ).join('')
   aiParts.push(`
 <rect x="40" y="${aiY}" width="${l.label.length * 8 + 22}" height="24" rx="6" stroke="${l.color}"/>
 <text x="${40 + (l.label.length * 8 + 22) / 2}" y="${aiY + 16}" font-size="12" text-anchor="middle" fill="${l.color}">${esc(l.label)}</text>
-<text class="sans" x="170" y="${aiY + 16}" font-size="13" fill="${C.comment}">${esc(l.description)}</text>`)
+${meter}
+<text class="sans" x="244" y="${aiY + 16}" font-size="13" fill="${C.comment}">${esc(l.description)}</text>`)
   aiY += 34
 }
 

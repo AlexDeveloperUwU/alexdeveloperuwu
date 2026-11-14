@@ -24,29 +24,34 @@
     <g font-size="9" font-weight="700" fill="#0f172a" fill-opacity=".5" text-anchor="middle"><text x="6" y="9.5">−</text><text x="26" y="9.5">□</text><text x="46" y="9.5">×</text></g>
   </g>
 </g>
-<text class="sans" x="40" y="74" font-size="14" fill="#cbd5e1">I treat AI as a tool, not a shortcut. I mostly use it to plan roadmaps, ask questions and polish documentation.</text>
-<text class="sans" x="40" y="98" font-size="14" fill="#cbd5e1">In my personal projects I try to keep it out of the code, because I want to learn, I enjoy coding, and I want to</text>
-<text class="sans" x="40" y="122" font-size="14" fill="#cbd5e1">fully understand and own what I ship. When it is simply useful, I use it, review every line before it ships, and</text>
-<text class="sans" x="40" y="146" font-size="14" fill="#cbd5e1">disclose it in that project's README with one of the levels below.</text>
+<text class="sans" x="40" y="74" font-size="14" fill="#cbd5e1">Every project and repository here is mine: the idea, the design, the decisions and the direction always come</text>
+<text class="sans" x="40" y="98" font-size="14" fill="#cbd5e1">from me, and I review everything that ships. What changes from project to project is how much AI was involved,</text>
+<text class="sans" x="40" y="122" font-size="14" fill="#cbd5e1">in any aspect: code, docs, design, planning or assets. The levels below describe that, and each project's README</text>
+<text class="sans" x="40" y="146" font-size="14" fill="#cbd5e1">discloses its level. When a project sits between two levels, I disclose the higher one.</text>
 <text x="40" y="188" font-size="13"><tspan fill="#7d8fa8">// </tspan><tspan fill="#60a5fa">Levels</tspan></text>
 
 <rect x="40" y="204" width="54" height="24" rx="6" stroke="#10b981"/>
 <text x="67" y="220" font-size="12" text-anchor="middle" fill="#10b981">None</text>
-<text class="sans" x="170" y="220" font-size="13" fill="#7d8fa8">No AI involved.</text>
+<rect x="170" y="211" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="184" y="211" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="198" y="211" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="212" y="211" width="10" height="10" rx="2" stroke="#3b4d69"/>
+<text class="sans" x="244" y="220" font-size="13" fill="#7d8fa8">No AI involved in any part of the project.</text>
 
 <rect x="40" y="238" width="102" height="24" rx="6" stroke="#60a5fa"/>
 <text x="91" y="254" font-size="12" text-anchor="middle" fill="#60a5fa">Consulting</text>
-<text class="sans" x="170" y="254" font-size="13" fill="#7d8fa8">Questions, roadmaps, planning and docs. Nothing code related.</text>
+<rect x="170" y="245" width="10" height="10" rx="2" fill="#60a5fa"/><rect x="184" y="245" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="198" y="245" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="212" y="245" width="10" height="10" rx="2" stroke="#3b4d69"/>
+<text class="sans" x="244" y="254" font-size="13" fill="#7d8fa8">AI answered questions or helped plan. Everything built is mine.</text>
 
 <rect x="40" y="272" width="86" height="24" rx="6" stroke="#f59e0b"/>
 <text x="83" y="288" font-size="12" text-anchor="middle" fill="#f59e0b">Assisted</text>
-<text class="sans" x="170" y="288" font-size="13" fill="#7d8fa8">AI wrote some files or features.</text>
+<rect x="170" y="279" width="10" height="10" rx="2" fill="#f59e0b"/><rect x="184" y="279" width="10" height="10" rx="2" fill="#f59e0b"/><rect x="198" y="279" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="212" y="279" width="10" height="10" rx="2" stroke="#3b4d69"/>
+<text class="sans" x="244" y="288" font-size="13" fill="#7d8fa8">AI produced some parts (code, docs or assets). I did the rest.</text>
 
 <rect x="40" y="306" width="102" height="24" rx="6" stroke="#f97316"/>
 <text x="91" y="322" font-size="12" text-anchor="middle" fill="#f97316">Co-created</text>
-<text class="sans" x="170" y="322" font-size="13" fill="#7d8fa8">A lot of the project was AI-assisted.</text>
+<rect x="170" y="313" width="10" height="10" rx="2" fill="#f97316"/><rect x="184" y="313" width="10" height="10" rx="2" fill="#f97316"/><rect x="198" y="313" width="10" height="10" rx="2" fill="#f97316"/><rect x="212" y="313" width="10" height="10" rx="2" stroke="#3b4d69"/>
+<text class="sans" x="244" y="322" font-size="13" fill="#7d8fa8">AI produced a large share, under my direction and review.</text>
 
 <rect x="40" y="340" width="94" height="24" rx="6" stroke="#ec4899"/>
 <text x="87" y="356" font-size="12" text-anchor="middle" fill="#ec4899">Generated</text>
-<text class="sans" x="170" y="356" font-size="13" fill="#7d8fa8">Fully built with AI. My only input was prompting.</text>
+<rect x="170" y="347" width="10" height="10" rx="2" fill="#ec4899"/><rect x="184" y="347" width="10" height="10" rx="2" fill="#ec4899"/><rect x="198" y="347" width="10" height="10" rx="2" fill="#ec4899"/><rect x="212" y="347" width="10" height="10" rx="2" fill="#ec4899"/>
+<text class="sans" x="244" y="356" font-size="13" fill="#7d8fa8">I gave the orders and prompts. Fully generated, reviewed by me, not written by me.</text>
 </svg>
