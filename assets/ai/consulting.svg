@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="44" viewBox="0 0 560 44" fill="none" role="img" aria-label="AI usage: Consulting. AI answered questions or helped plan. Everything built is mine.">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="92" viewBox="0 0 400 92" fill="none" role="img" aria-label="AI usage: Consulting. AI answered questions or helped plan. Everything built is mine.">
 <defs><style>
   text{font-family:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace}
   .sans{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}
@@ -6,11 +6,12 @@
   @keyframes pulse{50%{opacity:.35;transform:scale(1.6)}}
   @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
 </style></defs>
-<rect x=".5" y=".5" width="559" height="43" rx="10" fill="url(#card)" stroke="#2d3a54"/>
+<rect x=".5" y=".5" width="399" height="91" rx="10" fill="url(#card)" stroke="#2d3a54"/>
 <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e2c"/><stop offset="1" stop-color="#111827"/></linearGradient>
-<text x="16" y="27" font-size="12" fill="#7d8fa8">AI usage</text>
-<rect x="88" y="10" width="102" height="24" rx="6" stroke="#60a5fa"/>
-<text x="139" y="26" font-size="12" text-anchor="middle" fill="#60a5fa">Consulting</text>
-<rect x="206" y="17" width="10" height="10" rx="2" fill="#60a5fa"/><rect x="220" y="17" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="234" y="17" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="248" y="17" width="10" height="10" rx="2" stroke="#3b4d69"/>
-<text class="sans" x="276" y="26" font-size="12" fill="#7d8fa8">AI answered questions or helped plan. Everything built is mine.</text>
+<text x="16" y="29" font-size="12" fill="#7d8fa8">AI usage</text>
+<rect x="88" y="12" width="102" height="24" rx="6" stroke="#60a5fa"/>
+<text x="139" y="28" font-size="12" text-anchor="middle" fill="#60a5fa">Consulting</text>
+<rect x="206" y="19" width="10" height="10" rx="2" fill="#60a5fa"/><rect x="220" y="19" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="234" y="19" width="10" height="10" rx="2" stroke="#3b4d69"/><rect x="248" y="19" width="10" height="10" rx="2" stroke="#3b4d69"/>
+<text class="sans" x="16" y="62" font-size="12" fill="#7d8fa8">AI answered questions or helped plan.</text>
+<text class="sans" x="16" y="80" font-size="12" fill="#7d8fa8">Everything built is mine.</text>
 </svg>

@@ -211,17 +211,19 @@ const meter = (x, y, level, color) =>
 mkdirSync(path.join(ASSETS, 'ai'), { recursive: true })
 for (const [i, l] of ai.levels.entries()) {
   const pillW = l.label.length * 8 + 22
+  const lines = wrap(l.description, 46)
+  const h = 56 + lines.length * 18
   write(
     `ai/${l.id}.svg`,
-    `<svg xmlns="http://www.w3.org/2000/svg" width="560" height="44" viewBox="0 0 560 44" fill="none" role="img" aria-label="AI usage: ${esc(l.label)}. ${esc(l.description)}">
+    `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="${h}" viewBox="0 0 400 ${h}" fill="none" role="img" aria-label="AI usage: ${esc(l.label)}. ${esc(l.description)}">
 <defs><style>${css}</style></defs>
-<rect x=".5" y=".5" width="559" height="43" rx="10" fill="url(#card)" stroke="#2d3a54"/>
+<rect x=".5" y=".5" width="399" height="${h - 1}" rx="10" fill="url(#card)" stroke="#2d3a54"/>
 <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e2c"/><stop offset="1" stop-color="#111827"/></linearGradient>
-<text x="16" y="27" font-size="12" fill="${C.comment}">AI usage</text>
-<rect x="88" y="10" width="${pillW}" height="24" rx="6" stroke="${l.color}"/>
-<text x="${88 + pillW / 2}" y="26" font-size="12" text-anchor="middle" fill="${l.color}">${esc(l.label)}</text>
-${meter(88 + pillW + 16, 17, i, l.color)}
-<text class="sans" x="${88 + pillW + 16 + 70}" y="26" font-size="12" fill="${C.comment}">${esc(l.description)}</text>
+<text x="16" y="29" font-size="12" fill="${C.comment}">AI usage</text>
+<rect x="88" y="12" width="${pillW}" height="24" rx="6" stroke="${l.color}"/>
+<text x="${88 + pillW / 2}" y="28" font-size="12" text-anchor="middle" fill="${l.color}">${esc(l.label)}</text>
+${meter(88 + pillW + 16, 19, i, l.color)}
+${lines.map((t, n) => `<text class="sans" x="16" y="${62 + n * 18}" font-size="12" fill="${C.comment}">${esc(t)}</text>`).join('\n')}
 </svg>
 `,
   )
