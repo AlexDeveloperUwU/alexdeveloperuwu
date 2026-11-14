@@ -202,6 +202,31 @@ for (const { group, items } of stack) {
 const stackH = stackY + 10
 write('stack.svg', svg(880, stackH + 12, `${win(10, 6, 860, stackH, '~/stack/toolbox.md')}\n${stackParts.join('\n')}`))
 
+const meter = (x, y, level, color) =>
+  Array.from({ length: ai.levels.length - 1 }, (_, n) =>
+    `<rect x="${x + n * 14}" y="${y}" width="10" height="10" rx="2" ${n < level ? `fill="${color}"` : `stroke="#3b4d69"`}/>`,
+  ).join('')
+
+/** One standalone chip per level, referenced by other repos' READMEs via the raw URL so the wording lives in `data/ai.json` only. */
+mkdirSync(path.join(ASSETS, 'ai'), { recursive: true })
+for (const [i, l] of ai.levels.entries()) {
+  const pillW = l.label.length * 8 + 22
+  write(
+    `ai/${l.id}.svg`,
+    `<svg xmlns="http://www.w3.org/2000/svg" width="560" height="44" viewBox="0 0 560 44" fill="none" role="img" aria-label="AI usage: ${esc(l.label)}. ${esc(l.description)}">
+<defs><style>${css}</style></defs>
+<rect x=".5" y=".5" width="559" height="43" rx="10" fill="url(#card)" stroke="#2d3a54"/>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e2c"/><stop offset="1" stop-color="#111827"/></linearGradient>
+<text x="16" y="27" font-size="12" fill="${C.comment}">AI usage</text>
+<rect x="88" y="10" width="${pillW}" height="24" rx="6" stroke="${l.color}"/>
+<text x="${88 + pillW / 2}" y="26" font-size="12" text-anchor="middle" fill="${l.color}">${esc(l.label)}</text>
+${meter(88 + pillW + 16, 17, i, l.color)}
+<text class="sans" x="${88 + pillW + 16 + 70}" y="26" font-size="12" fill="${C.comment}">${esc(l.description)}</text>
+</svg>
+`,
+  )
+}
+
 const aiParts = []
 let aiY = 74
 for (const line of wrap(ai.statement, 112)) {
@@ -213,13 +238,10 @@ aiY += 18
 aiParts.push(`<text x="40" y="${aiY}" font-size="13"><tspan fill="${C.comment}">// </tspan><tspan fill="${C.keyword}">Levels</tspan></text>`)
 aiY += 16
 for (const [i, l] of ai.levels.entries()) {
-  const meter = Array.from({ length: ai.levels.length - 1 }, (_, n) =>
-    `<rect x="${170 + n * 14}" y="${aiY + 7}" width="10" height="10" rx="2" ${n < i ? `fill="${l.color}"` : `stroke="#3b4d69"`}/>`,
-  ).join('')
   aiParts.push(`
 <rect x="40" y="${aiY}" width="${l.label.length * 8 + 22}" height="24" rx="6" stroke="${l.color}"/>
 <text x="${40 + (l.label.length * 8 + 22) / 2}" y="${aiY + 16}" font-size="12" text-anchor="middle" fill="${l.color}">${esc(l.label)}</text>
-${meter}
+${meter(170, aiY + 7, i, l.color)}
 <text class="sans" x="244" y="${aiY + 16}" font-size="13" fill="${C.comment}">${esc(l.description)}</text>`)
   aiY += 34
 }

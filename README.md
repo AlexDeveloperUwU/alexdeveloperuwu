@@ -35,6 +35,7 @@
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="ai-usage"></a>
 <img src="assets/title-ai.svg" alt="AI usage" width="100%"/>
 <img src="assets/ai.svg" alt="~/about/ai-usage.md" width="100%"/>
 
